@@ -1,0 +1,48 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header / Navbar */
+header {
+    background-color: #111;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Título */
+header h2 {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* Menú */
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* Links */
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover */
+header ul li a:hover {
+    color: #00ff99;
+}
