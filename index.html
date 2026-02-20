@@ -4,24 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Skate Center</title>
 </head>
 
 <body>
-    <header>
-        <h2>SKATE CENTER</h2>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="ropa.html">Ropa</a></li>
-            <li><a href="skate.html">Skate</a></li>
-             <li><a href="IniciarSesion.html">Iniciar Sesión</a></li>
-             <li><a href="contactenos.html">Contáctenos</a></li>
-        </ul>
-        </ul>
+        <header>
+            <h2>SKATE CENTER</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="ropa.html">Ropa</a></li>
+                <li><a href="skate.html">Skate</a></li>
+                <li><a href="IniciarSesion.html">Iniciar Sesión</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+        </header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-</header>
+    <main>
+        <section class="inicio">
+<a href="ropa.html">
+            <div class="card">
+                <img src="img/tshirt1.png" alt="New collection">
+                <span class="texto">Clothes</span>
+                
+            </div>
+        </a>
+        <br><br>
+<a href="skate.html">
+            <div class="card">
+            
+                <img src="img/skate1.jpg" alt="skate" >
+                <span class="texto">Skate</span>
+              
+             
+            </div>
+</a>
+
+        </section>
+        <section class="inicio">
+            <a href="tennis" >
+            <div class="card-grande">
+                <img src="img/tenis1.jpg" alt="tennis">
+                
+             
+            </div>
+</a>
+
+        </section>
+    </main>
+
+
+    <footer>Esta pagina fue creada por el ingeniero en sistemas Luis Felipe G. Mora</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
